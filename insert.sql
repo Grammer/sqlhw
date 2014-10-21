@@ -1,0 +1,88 @@
+INSERT INTO adresses (BUILD_NUMBER, STREET_NAME, HOME_NUMBER)
+VALUES ('311','KASHIRSKAYA','14');
+INSERT INTO adresses (BUILD_NUMBER, STREET_NAME, HOME_NUMBER)
+VALUES ('310','zzzz','142');
+INSERT INTO adresses (BUILD_NUMBER, STREET_NAME, HOME_NUMBER)
+VALUES ('312','KAS','4');
+INSERT INTO adresses (BUILD_NUMBER, STREET_NAME, HOME_NUMBER)
+VALUES ('313','RSKAYA','1341');
+
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('1','C','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('2','CH','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('3','CHR','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('4','CHRI','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('5','CHRIS','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('6','CHRIST','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('7','CHRISTI','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('8','CHRISTIN','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('9','CHRISTINA','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('10','ISTINA','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('11','CHNA','1980-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('12','CISTINA','1997-01-01','f');
+INSERT INTO owners (ID, FULLNAME, BIRTHDATE, SEX)
+VALUES ('13','CIS','2000-01-01','f');
+
+
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('1', '311', '403', '0.01', '1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('2', '311', '403', '0.1', '1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('3', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('4', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('5', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('6', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('7', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('8', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('9', '311', '403', '0.1','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('10', '311', '403', '0.09','1997-03-01', '10.05.2009-05-01') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('13', '311', '403', '0.1','1997-03-01', '') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('11', '312', '403', '1','1997-03-01', '') ;
+INSERT INTO ownage (OWNER, BUILD_NUMBER, FLAT_NUMBER, PART, OWNAGE_START, OWNAGE_FINISH)
+VALUES ('12', '310', '403', '1','1997-03-01', '') ;
+
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('1','passport','1234','616161','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('2','passport','1980','212312','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('3','passport','1980','121311','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('5','passport','0101','187232','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('6','passport','1910','121212','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('7','passport','0110','545454','fpolice');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('8','passport','0980','121656','fpolice');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('9','passport','9980','523523','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('10','passport','9694','243245','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('11','birthcer','9990','643673','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('12','birthcer','6666','222222','police');
+INSERT INTO documents (id,doc_type, doc_ser, doc_num, who_gave)
+VALUES ('13','birthcer','7780','172699','police');
